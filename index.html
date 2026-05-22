@@ -1,0 +1,785 @@
+﻿<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- ══════════════════════════════════
+     COVER
+══════════════════════════════════ -->
+    <section id="cover">
+      <div class="cover-overlay"></div>
+
+      <!-- Ornamen sudut -->
+      <div class="orn orn-tl">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M5 5 Q60 5 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <path
+            d="M5 5 Q5 60 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <circle cx="5" cy="5" r="3" fill="#d4af6e" />
+          <circle cx="60" cy="60" r="2" fill="#d4af6e" opacity=".5" />
+          <path
+            d="M15 5 Q15 15 5 15"
+            stroke="#d4af6e"
+            stroke-width=".6"
+            fill="none"
+            opacity=".5"
+          />
+        </svg>
+      </div>
+      <div class="orn orn-tr">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M115 5 Q60 5 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <path
+            d="M115 5 Q115 60 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <circle cx="115" cy="5" r="3" fill="#d4af6e" />
+          <circle cx="60" cy="60" r="2" fill="#d4af6e" opacity=".5" />
+        </svg>
+      </div>
+      <div class="orn orn-bl">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M5 115 Q60 115 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <path
+            d="M5 115 Q5 60 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <circle cx="5" cy="115" r="3" fill="#d4af6e" />
+          <circle cx="60" cy="60" r="2" fill="#d4af6e" opacity=".5" />
+        </svg>
+      </div>
+      <div class="orn orn-br">
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M115 115 Q60 115 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <path
+            d="M115 115 Q115 60 60 60"
+            stroke="#d4af6e"
+            stroke-width="1"
+            fill="none"
+          />
+          <circle cx="115" cy="115" r="3" fill="#d4af6e" />
+          <circle cx="60" cy="60" r="2" fill="#d4af6e" opacity=".5" />
+        </svg>
+      </div>
+
+      <!-- Bunga atas & bawah -->
+      <div class="cover-flower top">
+        <svg
+          viewBox="0 0 400 160"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g transform="translate(200,150)">
+            <ellipse
+              cx="-60"
+              cy="-30"
+              rx="28"
+              ry="12"
+              fill="#d4af6e"
+              opacity=".22"
+              transform="rotate(-40)"
+            />
+            <ellipse
+              cx="-40"
+              cy="-50"
+              rx="22"
+              ry="9"
+              fill="#d4af6e"
+              opacity=".18"
+              transform="rotate(-20)"
+            />
+            <ellipse
+              cx="60"
+              cy="-30"
+              rx="28"
+              ry="12"
+              fill="#d4af6e"
+              opacity=".22"
+              transform="rotate(40)"
+            />
+            <ellipse
+              cx="40"
+              cy="-50"
+              rx="22"
+              ry="9"
+              fill="#d4af6e"
+              opacity=".18"
+              transform="rotate(20)"
+            />
+            <ellipse
+              cx="0"
+              cy="-60"
+              rx="18"
+              ry="8"
+              fill="#d4af6e"
+              opacity=".2"
+            />
+            <path
+              d="M-80,-10 Q-50,10 0,0 Q50,10 80,-10"
+              stroke="#d4af6e"
+              stroke-width="1"
+              fill="none"
+              opacity=".4"
+            />
+            <path
+              d="M-100,5 Q-60,-5 0,5 Q60,-5 100,5"
+              stroke="#d4af6e"
+              stroke-width=".8"
+              fill="none"
+              opacity=".3"
+            />
+            <circle cx="0" cy="0" r="8" fill="#d4af6e" opacity=".35" />
+            <circle cx="-55" cy="-18" r="4" fill="#d4af6e" opacity=".3" />
+            <circle cx="55" cy="-18" r="4" fill="#d4af6e" opacity=".3" />
+            <path
+              d="M-120,12 Q-80,-8 -40,2"
+              stroke="#d4af6e"
+              stroke-width=".7"
+              fill="none"
+              opacity=".25"
+            />
+            <path
+              d="M120,12 Q80,-8 40,2"
+              stroke="#d4af6e"
+              stroke-width=".7"
+              fill="none"
+              opacity=".25"
+            />
+          </g>
+        </svg>
+      </div>
+
+      <div class="cover-flower bottom">
+        <svg
+          viewBox="0 0 400 160"
+          xmlns="http://www.w3.org/2000/svg"
+          preserveAspectRatio="xMidYMid meet"
+        >
+          <g transform="translate(200,10) scale(1,-1)">
+            <ellipse
+              cx="-60"
+              cy="-30"
+              rx="28"
+              ry="12"
+              fill="#d4af6e"
+              opacity=".22"
+              transform="rotate(-40)"
+            />
+            <ellipse
+              cx="-40"
+              cy="-50"
+              rx="22"
+              ry="9"
+              fill="#d4af6e"
+              opacity=".18"
+              transform="rotate(-20)"
+            />
+            <ellipse
+              cx="60"
+              cy="-30"
+              rx="28"
+              ry="12"
+              fill="#d4af6e"
+              opacity=".22"
+              transform="rotate(40)"
+            />
+            <ellipse
+              cx="40"
+              cy="-50"
+              rx="22"
+              ry="9"
+              fill="#d4af6e"
+              opacity=".18"
+              transform="rotate(20)"
+            />
+            <ellipse
+              cx="0"
+              cy="-60"
+              rx="18"
+              ry="8"
+              fill="#d4af6e"
+              opacity=".2"
+            />
+            <path
+              d="M-80,-10 Q-50,10 0,0 Q50,10 80,-10"
+              stroke="#d4af6e"
+              stroke-width="1"
+              fill="none"
+              opacity=".4"
+            />
+            <circle cx="0" cy="0" r="8" fill="#d4af6e" opacity=".35" />
+            <circle cx="-55" cy="-18" r="4" fill="#d4af6e" opacity=".3" />
+            <circle cx="55" cy="-18" r="4" fill="#d4af6e" opacity=".3" />
+          </g>
+        </svg>
+      </div>
+
+      <div class="cover-content">
+        <p class="cover-sub">Undangan Pernikahan</p>
+        <div class="cover-divider">
+          <span class="line"></span><span class="diamond">◆</span
+          ><span class="line"></span>
+        </div>
+        <h1 class="cover-names">
+          <span class="name-pria">Rio</span>
+          <span class="cover-amp">&</span>
+          <span class="name-wanita">Lyan</span>
+        </h1>
+        <p class="cover-date-text">Jumat, 15 Oktober 2026</p>
+        <div class="cover-divider">
+          <span class="line"></span><span class="diamond">◆</span
+          ><span class="line"></span>
+        </div>
+        <p class="cover-to">
+          Kepada Yth. <br /><strong></strong>
+        </p>
+        <button class="btn-open" onclick="bukaUndangan()">
+          <i class="fas fa-envelope-open"></i>&nbsp; Buka Undangan
+        </button>
+      </div>
+
+      <!-- Kelopak jatuh -->
+      <div id="petals-cover"></div>
+    </section>
+
+    <!-- ══════════════════════════════════
+     MAIN UNDANGAN
+══════════════════════════════════ -->
+    <main id="main-content" class="hidden">
+      
+      
+      
+      <!-- MUSIC PLAYER -->
+      <div class="music-fab" id="musicFab" onclick="toggleMusic()">
+        <i class="fas fa-music" id="musicIcon"></i>
+      </div>
+      <audio id="bgMusic" loop>
+        <!-- Ganti src dengan file musik Anda -->
+        <source src="musik.mp3" type="audio/mpeg" />
+      </audio>
+
+      <!-- ── 1. BISMILLAH ── -->
+      <section class="sec bismillah-sec">
+        <div class="bismillah-box reveal">
+          <div class="bism-corner bc1"></div>
+          <div class="bism-corner bc2"></div>
+          <div class="bism-corner bc3"></div>
+          <div class="bism-corner bc4"></div>
+          <div class="gold-line"></div>
+          <p class="verse-text">
+            "Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan
+            untukmu pasangan hidup dari jenismu sendiri, supaya kamu cenderung
+            dan merasa tenteram kepadanya, dan dijadikan-Nya di antaramu rasa
+            kasih dan sayang."
+          </p>
+        </div>
+      </section>
+
+      <!-- ── 2. MEMPELAI ── -->
+      <section class="sec couple-sec">
+        <div class="sec-head reveal">
+          <div class="leaf-row">
+            <span>🌿</span>
+            <h2 class="sec-title">Mempelai</h2>
+            <span class="flip">🌿</span>
+          </div>
+          <div class="gold-line short"></div>
+        </div>
+
+        <div class="couple-grid">
+          <!-- PRIA -->
+          <div class="person reveal">
+            <!-- ★ Foto kotak — ganti "foto.jpeg" dengan nama file foto Anda -->
+            <div class="photo-wrap">
+              <img
+                src="foto.jpeg"
+                alt="Foto Mempelai Pria"
+                class="photo-sq"
+                onerror="
+                  this.style.background =
+                    'linear-gradient(135deg,#f5ede0,#e8d5b0)';
+                  this.style.display = 'flex';
+                  this.alt = 'Foto Pria';
+                "
+              />
+              <div class="photo-frame-border"></div>
+            </div>
+            <span class="person-badge">Mempelai Pria</span>
+            <h3 class="person-name">Ryo.</h3>
+            <p class="person-parents">
+              Putra pertama dari<br />
+              <strong>Bpk.Ryo</strong> &amp;
+              <strong>Ibu.Ryo</strong>
+            </p>
+          </div>
+
+          <!-- PEMISAH -->
+          <div class="couple-sep reveal">
+            <div class="heart-icon">
+              <svg
+                viewBox="0 0 60 55"
+                xmlns="http://www.w3.org/2000/svg"
+                width="48"
+              >
+                <path
+                  d="M30 50 C12 36 3 22 3 14 C3 7 9 2 17 6 C22 9 26 13 30 18 C34 13 38 9 43 6 C51 2 57 7 57 14 C57 22 48 36 30 50Z"
+                  fill="#d4af6e"
+                  opacity=".85"
+                />
+              </svg>
+            </div>
+            <p class="amp-text">&amp;</p>
+          </div>
+
+          <!-- WANITA -->
+          <div class="person reveal">
+            <!-- ★ Foto kotak — ganti "foto.jpeg" dengan nama file foto wanita Anda -->
+            <div class="photo-wrap">
+              <img
+                src="foto.jpeg"
+                alt="Foto Mempelai Wanita"
+                class="photo-sq"
+                onerror="
+                  this.style.background =
+                    'linear-gradient(135deg,#f5ede0,#e8d5b0)';
+                  this.style.display = 'flex';
+                  this.alt = 'Foto Wanita';
+                "
+              />
+              <div class="photo-frame-border"></div>
+            </div>
+            <span class="person-badge">Mempelai Wanita</span>
+            <h3 class="person-name">Lyan</h3>
+            <p class="person-parents">
+              Putri pertama dari<br />
+              <strong>Bpk.Lyan</strong> &amp;
+              <strong>Ibu.lyan</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 3. FOTO BERSAMA ── -->
+      <section class="sec foto-bersama-sec">
+        <div class="sec-head reveal">
+          <div class="leaf-row">
+            <span>🌿</span>
+            <h2 class="sec-title">Foto Bersama</h2>
+            <span class="flip">🌿</span>
+          </div>
+          <div class="gold-line short"></div>
+        </div>
+        <div class="foto-bersama-wrap reveal">
+          <!-- ★ Foto kotak bersama — ganti "foto.jpeg" -->
+          <div class="foto-sq-main">
+            <img src="foto.jpeg" alt="Foto Bersama" />
+          </div>
+          <div class="foto-sq-row">
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 4. COUNTDOWN ── -->
+      <section class="sec countdown-sec">
+        <div class="countdown-inner">
+          <div class="cdwn-flower t"></div>
+          <div class="cdwn-flower b"></div>
+          <p class="cdwn-label reveal">Menuju Hari Bahagia</p>
+          <div class="cdwn-boxes reveal" id="cdwn">
+            <div class="cdwn-box">
+              <span id="cd-d">00</span><small>Hari</small>
+            </div>
+            <div class="cdwn-sep">:</div>
+            <div class="cdwn-box">
+              <span id="cd-h">00</span><small>Jam</small>
+            </div>
+            <div class="cdwn-sep">:</div>
+            <div class="cdwn-box">
+              <span id="cd-m">00</span><small>Menit</small>
+            </div>
+            <div class="cdwn-sep">:</div>
+            <div class="cdwn-box">
+              <span id="cd-s">00</span><small>Detik</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 5. ACARA ── -->
+      <!-- ── 5. ACARA ── -->
+      <section class="sec acara-sec">
+        <div class="sec-head reveal">
+          <div class="leaf-row">
+            <span>🌿</span>
+            <h2 class="sec-title">Informasi Acara</h2>
+            <span class="flip">🌿</span>
+          </div>
+          <div class="gold-line short"></div>
+        </div>
+        <div class="acara-grid">
+          <div class="acara-card reveal">
+            <!-- LOGO GEREJA -->
+            <div class="acara-icon">
+              <svg
+                viewBox="0 0 48 48"
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="none"
+              >
+                <!-- Salib di atas -->
+                <rect
+                  x="22"
+                  y="2"
+                  width="4"
+                  height="10"
+                  rx="1"
+                  fill="#d4af6e"
+                />
+                <rect
+                  x="18"
+                  y="5"
+                  width="12"
+                  height="3"
+                  rx="1"
+                  fill="#d4af6e"
+                />
+                <!-- Atap segitiga -->
+                <polygon
+                  points="8,22 24,10 40,22"
+                  fill="#d4af6e"
+                  opacity=".9"
+                />
+                <!-- Badan gereja -->
+                <rect
+                  x="10"
+                  y="22"
+                  width="28"
+                  height="22"
+                  rx="1"
+                  fill="#d4af6e"
+                  opacity=".75"
+                />
+                <!-- Pintu -->
+                <rect
+                  x="20"
+                  y="32"
+                  width="8"
+                  height="12"
+                  rx="3"
+                  fill="#1a0f06"
+                />
+                <!-- Jendela kiri -->
+                <rect
+                  x="13"
+                  y="26"
+                  width="6"
+                  height="6"
+                  rx="1"
+                  fill="#1a0f06"
+                  opacity=".7"
+                />
+                <!-- Jendela kanan -->
+                <rect
+                  x="29"
+                  y="26"
+                  width="6"
+                  height="6"
+                  rx="1"
+                  fill="#1a0f06"
+                  opacity=".7"
+                />
+              </svg>
+            </div>
+            <h3 class="acara-name">Akad Nikah</h3>
+            <ul class="acara-list">
+              <li><i class="far fa-calendar-alt"></i> Jumat, 15 Oktober 2026</li>
+              <li><i class="far fa-clock"></i> 08.00 – 10.00 WIB</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Gereja Kumba Ruteng<br />Jl.
+                Mawar No.10, Malang
+              </li>
+            </ul>
+            <a class="btn-maps" href="https://maps.app.goo.gl/Xy8iJmcrc6wu7h7P7" target="_blank">
+              <i class="fas fa-location-dot"></i> Lihat Lokasi
+            </a>
+          </div>
+
+          <div class="acara-card reveal">
+            <!-- LOGO GEDUNG PERNIKAHAN -->
+            <div class="acara-icon">
+              <svg
+                viewBox="0 0 48 48"
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                fill="none"
+              >
+                <!-- Badan utama gedung -->
+                <rect
+                  x="4"
+                  y="20"
+                  width="40"
+                  height="24"
+                  rx="1"
+                  fill="#d4af6e"
+                  opacity=".75"
+                />
+                <!-- Atap trapesium -->
+                <polygon
+                  points="1,20 47,20 40,10 8,10"
+                  fill="#d4af6e"
+                  opacity=".9"
+                />
+                <!-- Menara kiri -->
+                <rect x="4" y="12" width="8" height="8" rx="0" fill="#d4af6e" />
+                <polygon points="4,12 12,12 8,6" fill="#d4af6e" opacity=".95" />
+                <!-- Menara kanan -->
+                <rect
+                  x="36"
+                  y="12"
+                  width="8"
+                  height="8"
+                  rx="0"
+                  fill="#d4af6e"
+                />
+                <polygon
+                  points="36,12 44,12 40,6"
+                  fill="#d4af6e"
+                  opacity=".95"
+                />
+                <!-- Pintu utama -->
+                <rect
+                  x="19"
+                  y="30"
+                  width="10"
+                  height="14"
+                  rx="4"
+                  fill="#1a0f06"
+                />
+                <!-- Tiang kiri -->
+                <rect
+                  x="10"
+                  y="20"
+                  width="4"
+                  height="24"
+                  rx="0"
+                  fill="#a07840"
+                  opacity=".5"
+                />
+                <!-- Tiang kanan -->
+                <rect
+                  x="34"
+                  y="20"
+                  width="4"
+                  height="24"
+                  rx="0"
+                  fill="#a07840"
+                  opacity=".5"
+                />
+                <!-- Jendela kiri -->
+                <rect
+                  x="11"
+                  y="24"
+                  width="6"
+                  height="5"
+                  rx="1"
+                  fill="#1a0f06"
+                  opacity=".6"
+                />
+                <!-- Jendela kanan -->
+                <rect
+                  x="31"
+                  y="24"
+                  width="6"
+                  height="5"
+                  rx="1"
+                  fill="#1a0f06"
+                  opacity=".6"
+                />
+                <!-- Tangga -->
+                <rect
+                  x="16"
+                  y="42"
+                  width="16"
+                  height="2"
+                  rx="0"
+                  fill="#a07840"
+                  opacity=".6"
+                />
+                <rect
+                  x="18"
+                  y="44"
+                  width="12"
+                  height="2"
+                  rx="0"
+                  fill="#a07840"
+                  opacity=".5"
+                />
+              </svg>
+            </div>
+            <h3 class="acara-name">Resepsi</h3>
+            <ul class="acara-list">
+              <li><i class="far fa-calendar-alt"></i> Jumat, 15 Oktober 2026</li>
+              <li><i class="far fa-clock"></i> 11.00 – 15.00 WIB</li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> MCC Ruteng<br />Jl.
+                Kawi No.5, Malang
+              </li>
+            </ul>
+            <a class="btn-maps" href="https://maps.app.goo.gl/TABUfRJsC85vCQdJA" target="_blank">
+              <i class="fas fa-location-dot"></i> Lihat Lokasi
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── 6. GALERI FOTO ── -->
+      <section class="sec gallery-sec">
+        <div class="sec-head reveal">
+          <div class="leaf-row">
+            <span>🌿</span>
+            <h2 class="sec-title">Galeri</h2>
+            <span class="flip">🌿</span>
+          </div>
+          <div class="gold-line short"></div>
+        </div>
+        <!--
+      ★★ CARA MENARUH FOTO ★★
+      Letakkan file foto di folder yang sama dengan index.html.
+      Ganti src="foto.jpeg" dengan nama file foto Anda.
+      Contoh: src="foto-1.jpeg" / src="prewedding1.jpg" dst.
+      Semua foto ditampilkan KOTAK (square).
+    -->
+        <div class="gallery-grid reveal">
+          <div class="gal-item"><img src="foto.jpeg" alt="Galeri 1" /></div>
+          <div class="gal-item"><img src="foto.jpeg" alt="Galeri 2" /></div>
+          <div class="gal-item"><img src="foto.jpeg" alt="Galeri 3" /></div>
+          <div class="gal-item"><img src="foto.jpeg" alt="Galeri 4" /></div>
+          <div class="gal-item"><img src="foto.jpeg" alt="Galeri 5" /></div>
+          <div class="gal-item"><img src="foto.jpeg" alt="Galeri 6" /></div>
+        </div>
+      </section>
+
+      <!-- ── 7. UCAPAN & DOA ── -->
+      <!-- ── 7. KEHADIRAN ── -->
+      <section class="sec ucapan-sec">
+        <div class="sec-head reveal">
+          <div class="leaf-row">
+            <span>🌿</span>
+            <h2 class="sec-title">Konfirmasi Kehadiran</h2>
+            <span class="flip">🌿</span>
+          </div>
+          <div class="gold-line short"></div>
+        </div>
+
+        <div class="ucapan-form reveal">
+          <input
+            id="uc-nama"
+            type="text"
+            placeholder="Nama Lengkap Anda"
+            class="uc-input"
+          />
+          <div class="radio-group">
+            <label class="radio-card" id="label-hadir">
+              <input
+                type="radio"
+                name="kehadiran"
+                value="hadir"
+                onchange="pilihKehadiran('hadir')"
+              />
+              <span class="radio-icon">✅</span>
+              <span class="radio-text">Hadir</span>
+            </label>
+            <label class="radio-card" id="label-tidak">
+              <input
+                type="radio"
+                name="kehadiran"
+                value="tidak"
+                onchange="pilihKehadiran('tidak')"
+              />
+              <span class="radio-icon">❌</span>
+              <span class="radio-text">Tidak Hadir</span>
+            </label>
+          </div>
+          <button class="btn-kirim" onclick="kirimKehadiran()">
+            <i class="fas fa-paper-plane"></i>&nbsp; Konfirmasi
+          </button>
+        </div>
+
+      <!-- ── 8. PENUTUP ── -->
+      <section class="sec penutup-sec">
+        <div class="penutup-inner">
+          <!-- bunga dekoratif -->
+          <div class="pnut-flower t"></div>
+          <div class="pnut-flower b"></div>
+
+          <div class="penutup-box reveal">
+            <div class="bism-corner bc1"></div>
+            <div class="bism-corner bc2"></div>
+            <div class="bism-corner bc3"></div>
+            <div class="bism-corner bc4"></div>
+            <p class="pnut-sub">Terima Kasih</p>
+            <h2 class="pnut-names">Ryo<br />&amp;<br />Lyan</h2>
+            <div class="gold-line"></div>
+            <p class="pnut-text">
+              Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila
+              Bapak/Ibu/Saudara/i berkenan hadir memberikan do'a restu kepada
+              kami.
+            </p>
+            <p class="pnut-hashtag">#RyoLyan2026</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          Made with <i class="fas fa-heart" style="color: #d4af6e"></i> · Ryo
+          &amp; Lyan
+        </p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
